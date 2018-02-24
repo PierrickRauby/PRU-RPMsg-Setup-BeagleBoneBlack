@@ -30,14 +30,20 @@
 #############################################################################
 echo "**** Starting ****"
 echo "building Halt_PRU"
-cd PRU_Halt
+
+alias cd_PRU_Halt="cd PRU_Halt"
+folderHalt
+
 make clean
 make
 echo "copying files into /lib/firmware/am335x-pru0-fw"
 cp gen/*.out /lib/firmware/am335x-pru0-fw
 echo "done"
 echo "building PRU_RPMsg_Echo_Interrupt1"
-cd ../PRU_RPMsg_Echo_Interrupt1
+
+alias cd_PRU_RPMsg_Echo_Interrupt1="cd ../PRU_RPMsg_Echo_Interrupt1"
+cd_PRU_RPMsg_Echo_Interrupt
+
 make clean
 make
 echo "copying files into /lib/firmware/am335x-pru1-fw"
