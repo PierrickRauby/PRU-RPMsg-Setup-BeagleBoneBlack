@@ -32,7 +32,7 @@ echo "**** Starting ****"
 echo "building Halt_PRU"
 
 alias cd_PRU_Halt="cd PRU_Halt"
-folderHalt
+cd_PRU_Halt
 
 make clean
 make
@@ -42,7 +42,7 @@ echo "done"
 echo "building PRU_RPMsg_Echo_Interrupt1"
 
 alias cd_PRU_RPMsg_Echo_Interrupt1="cd ../PRU_RPMsg_Echo_Interrupt1"
-cd_PRU_RPMsg_Echo_Interrupt
+cd_PRU_RPMsg_Echo_Interrupt1
 
 make clean
 make
