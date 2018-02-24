@@ -49,8 +49,6 @@ echo "It was tested on 4.9.12-ti-r57 kernel version"
 echo "The source code for Hello_PRU ie PRU_gpioToggle was taken from"
 echo "pru-software-support-package and can be cloned from"
 echo "git clone git://git.ti.com/pru-software-support-package/pru-software-support-package.git"
-echo "To continue, press any key:"
-read
 
 echo "-Building project"
 	make clean
