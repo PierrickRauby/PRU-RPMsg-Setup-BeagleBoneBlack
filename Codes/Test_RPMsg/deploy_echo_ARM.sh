@@ -30,6 +30,6 @@
 #############################################################################
 echo "———##########———Compilling C code———##########———"
 gcc rpmsg_pru_user_space_echo.c -o  rpmsg_pru_user_space_echo
-echo " ———##########———Starting..."
+echo "———##########———Starting..."
 ./rpmsg_pru_user_space_echo
-echo " ...Ending———##########———"
+echo "...Ending———##########———"
